@@ -1,0 +1,30 @@
+.btn {
+  border: 1px solid #e6b939;
+  height: 51px;
+  background-color: #e6b939;
+  border-radius: 4px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  transition: opacity 0.2 ease;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-big {
+  min-height: 65px;
+}
+.btn-start-trial {
+  margin-left: 35px;
+}
+@media (max-width: 991px) {
+  .btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    min-height: 41px;
+  }
+  .btn-big {
+    min-height: 55px;
+  }
+}

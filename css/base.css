@@ -1,0 +1,37 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #424242;
+  line-height: 1.5;
+  /* min-width: 1600px; */
+}
+/* Utility */
+
+.none {
+  display: none !important;
+}
+/* Grid */
+
+.container {
+  width: 1400px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1399px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1535px) {
+  .container-wide {
+    width: 100%;
+  }
+  .no-scroll {
+    overflow: hidden;
+  }
+}
